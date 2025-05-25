@@ -1,0 +1,36 @@
+{
+  "$schema": "https://raw.githubusercontent.com/platformio/platformio-core/develop/platformio/assets/schema/library.json",
+  "name": "ble-kv",
+  "version": "0.0.0",
+  "description": "Seamless key-value BLE messaging between browser and Arduino. For HM-10 and similar modules.",
+  "keywords": [
+    "BLE",
+    "key-value",
+    "HM-10",
+    "Web Bluetooth",
+    "TypeScript",
+    "JavaScript",
+    "IoT",
+    "bluetooth",
+    "messaging",
+    "serial communication"
+  ],
+  "homepage": "https://github.com/gandandev/ble-kv",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gandandev/ble-kv-arduino.git"
+  },
+  "authors": [
+    {
+      "name": "gandandev",
+      "email": "gandan.dev@gmail.com",
+      "url": "https://github.com/gandandev",
+      "maintainer": true
+    }
+  ],
+  "license": "MIT",
+  "frameworks": "*",
+  "platforms": "*",
+  "headers": "BleKv.h",
+  "examples": []
+}
